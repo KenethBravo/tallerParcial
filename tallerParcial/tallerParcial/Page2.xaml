@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tallerParcial.Page2">
+    <StackLayout        
+            Orientation="Vertical"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            Margin="10"
+         WidthRequest="500">
+        <Label Text="FORGOT PASSWORD" FontSize="Large" FontAttributes="Bold"/>
+        <Label Text="E-mail"/>
+        <Entry x:Name="emailForgot" />
+        <Button Text="Reset Password" Clicked="ButtonReset"/>
+    </StackLayout>
+</ContentPage>

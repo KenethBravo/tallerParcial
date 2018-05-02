@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:tallerParcial"
+             x:Class="tallerParcial.MainPage">
+
+    <StackLayout 
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"
+        Margin="10"
+         WidthRequest="500"
+        >
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Start"
+                     Margin="10"
+                     Spacing="20"
+                     HorizontalOptions="Center">
+            <Image Source="https://i1.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png" 
+                   WidthRequest="200"/>
+        </StackLayout>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     Margin="10"
+                     Spacing="20">
+            <Label Text="Usuario"/>
+            <Entry Placeholder="Nombre Usuario" x:Name="txtuser"></Entry>
+            <Label Text="Password"/>
+            <Entry Placeholder="Ingresa Contraseña" IsPassword="True" x:Name="txtpass"></Entry>
+            <Button Text="SIGN IN" x:Name="btnLogin" Clicked="ButtonIndex"/>
+            <Button Text="I FORGOT PASSWORD"  Clicked="ButtonForgot"/>
+            <Button Text="SIGN UP" Clicked="ButtonSingUp" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" 
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Margin="10"
+                     Spacing="20">
+            <Image Source="http://cjalacant.org/wp-content/uploads/ICONCRAZE-COM-Facebook-Icon-PNG.png" WidthRequest="50"/>
+            <Image Source="https://cdn4.iconfinder.com/data/icons/happily-colored-snlogo/128/gmail-email-mail-logo-circle-material.png" WidthRequest="50"/>
+            <Image Source="http://files.softicons.com/download/social-media-icons/clean-simple-social-icons-by-creative-nerds/png/256x256/Twitter.png" WidthRequest="50"/>
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>

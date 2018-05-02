@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tallerParcial.Page3">
+    <StackLayout 
+        Orientation="Vertical"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="Center"
+        Margin="10"
+         WidthRequest="500"
+        >
+        <Label Text="SIGN UP FROM" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold"/>
+        <ScrollView>
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="Center"
+                         Margin="10"
+                         Spacing="20">
+
+                <Label Text="First Name"/>
+                <Entry Placeholder="Name User" x:Name="enName"></Entry>
+                <Label Text="Last Name"/>
+                <Entry Placeholder="Last name user" x:Name="enApellidos"></Entry>
+                <Label Text="Email"/>
+                <Entry Placeholder="" x:Name="enEmail"></Entry>
+                <Label Text="Password"/>
+                <Entry IsPassword="true"  x:Name="enPass" HorizontalOptions="FillAndExpand"></Entry>
+                <Label Text="Confirm Password"/>
+                <Entry IsPassword="true"  x:Name="enPassConfirm"></Entry>
+
+                <Button Text="Registrar"/>
+                <Button Text="I already hace an account" Clicked="ButtonMain"/>
+
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tallerParcial.Detail"
+             Title="Inicio">
+    <StackLayout 
+        Orientation="Vertical"
+        HorizontalOptions="Center">
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="CenterAndExpand"
+                     Margin="0">
+            <Image Source="https://i.ytimg.com/vi/8P_Q407CkCg/maxresdefault.jpg" 
+                   Margin="0,10,0,10" WidthRequest="400"
+                 />
+        </StackLayout>
+
+
+        <SearchBar x:Name="searchcustomer"
+            Placeholder="Buscar Productos" FontSize="Large"/>
+
+        <ScrollView>
+
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="Center"
+                         Margin="10"
+                         Spacing="30">
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout
+                        Orientation="Vertical"
+                        WidthRequest="400">
+                        <Label Text="Cuarto de Cuy" FontSize="Medium" FontAttributes="Bold"/>
+                        <Label Text="Cuy con papa,crispetas y aji" FontSize="Small" />
+                        <Image Source="http://iconshow.me/media/images/Mixed/line-icon/png/512/like-512.png" WidthRequest="40" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" 
+                                 >
+                        <Label Text="$11.200" HorizontalTextAlignment="End" FontSize="Medium" FontAttributes="Bold"/>
+                        <StackLayout
+                            Orientation="Horizontal" VerticalOptions="End">
+                            <Image Source="https://png.icons8.com/android/1600/shopping-cart.png" WidthRequest="50" />
+                            <Image Source="https://cdn1.iconfinder.com/data/icons/medicato/32/cross_round-512.png" WidthRequest="40" VerticalOptions="End"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout
+                        Orientation="Vertical"
+                        WidthRequest="400">
+                        <Label Text="Medio de Cuy" FontSize="Medium" FontAttributes="Bold"/>
+                        <Label Text="Cuy con papa,crispetas y aji" FontSize="Small" />
+                        <Image Source="http://iconshow.me/media/images/Mixed/line-icon/png/512/like-512.png" WidthRequest="40" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" 
+                                 >
+                        <Label Text="$21.200" HorizontalTextAlignment="End" FontSize="Medium" FontAttributes="Bold"/>
+                        <StackLayout
+                            Orientation="Horizontal" VerticalOptions="End">
+                            <Image Source="https://png.icons8.com/android/1600/shopping-cart.png" WidthRequest="50" />
+                            <Image Source="https://cdn1.iconfinder.com/data/icons/medicato/32/cross_round-512.png" WidthRequest="40" VerticalOptions="End"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout
+                        Orientation="Vertical"
+                        WidthRequest="400">
+                        <Label Text="Cuy Entero" FontSize="Medium" FontAttributes="Bold"/>
+                        <Label Text="Cuy con papa,crispetas y aji" FontSize="Small" />
+                        <Image Source="http://iconshow.me/media/images/Mixed/line-icon/png/512/like-512.png" WidthRequest="40" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" 
+                                 >
+                        <Label Text="$42.200" HorizontalTextAlignment="End" FontSize="Medium" FontAttributes="Bold"/>
+                        <StackLayout
+                            Orientation="Horizontal" VerticalOptions="End">
+                            <Image Source="https://png.icons8.com/android/1600/shopping-cart.png" WidthRequest="50" />
+                            <Image Source="https://cdn1.iconfinder.com/data/icons/medicato/32/cross_round-512.png" WidthRequest="40" VerticalOptions="End"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout
+                        Orientation="Vertical"
+                        WidthRequest="400">
+                        <Label Text="Mixto con 1/4 de cuy" FontSize="Medium" FontAttributes="Bold"/>
+                        <Label Text="Cuy con papa frita,crispetas, carne de cerdo y aji " FontSize="Small" />
+                        <Image Source="http://iconshow.me/media/images/Mixed/line-icon/png/512/like-512.png" WidthRequest="40" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" 
+                                 >
+                        <Label Text="$22.200" HorizontalTextAlignment="End" FontSize="Medium" FontAttributes="Bold"/>
+                        <StackLayout
+                            Orientation="Horizontal" VerticalOptions="End">
+                            <Image Source="https://png.icons8.com/android/1600/shopping-cart.png" WidthRequest="50" />
+                            <Image Source="https://cdn1.iconfinder.com/data/icons/medicato/32/cross_round-512.png" WidthRequest="40" VerticalOptions="End"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+
+        <StackLayout Orientation="Horizontal" 
+                     VerticalOptions="End"
+                     HorizontalOptions="Center"
+                     Margin="10"
+                     Spacing="20">
+            <Image Source="http://iconshow.me/media/images/social/flat-gradient-social-media-icons/png/256/Sharethis.png" WidthRequest="70"/>
+        </StackLayout>
+
+
+    </StackLayout>
+</ContentPage>

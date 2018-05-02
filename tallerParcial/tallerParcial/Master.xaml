@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tallerParcial.Master"
+             Title="Menu">
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="Start"
+        HorizontalOptions="Center"
+        Margin="0"
+         WidthRequest="500">
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="StartAndExpand"
+                     Margin="10"
+                     Spacing="20"
+                     HorizontalOptions="Center">
+            <Label Text="MENU" FontAttributes="Bold" FontSize="Large"/>
+        </StackLayout>
+
+        <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="Start"
+        HorizontalOptions="Center"
+        Margin="0"
+         WidthRequest="500">
+            <StackLayout Orientation="Horizontal"
+                    VerticalOptions="StartAndExpand"
+                    Margin="10"
+                    Spacing="20"
+                    HorizontalOptions="Center">
+                <Button Text="Ver Mis Compras" FontSize="Micro" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="Start"
+        HorizontalOptions="Center"
+        Margin="0"
+         WidthRequest="500"
+        >
+            <StackLayout Orientation="Horizontal"
+                    VerticalOptions="StartAndExpand"
+                    Margin="10"
+                    Spacing="20"
+                    HorizontalOptions="Center">
+                <Button Text="Listar Usuarios" FontSize="Micro" Clicked="ButtonListado" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="Start"
+        HorizontalOptions="Center"
+        Margin="0"
+         WidthRequest="500"
+        >
+            <StackLayout Orientation="Horizontal"
+                    VerticalOptions="StartAndExpand"
+                    Margin="10"
+                    Spacing="20"
+                    HorizontalOptions="Center">
+                <Button Text="Acerca de.." FontSize="Micro" />
+            </StackLayout>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
