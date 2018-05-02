@@ -14,7 +14,7 @@ namespace tallerParcial
 		public MainPage()
 		{
 			InitializeComponent();
-		}
+        }
 
         private async void ButtonIndex(object sender, EventArgs e)
         {

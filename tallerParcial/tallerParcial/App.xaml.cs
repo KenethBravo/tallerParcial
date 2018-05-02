@@ -13,7 +13,6 @@ namespace tallerParcial
         public App ()
 		{
 			InitializeComponent();
-
             //MainPage = new tallerParcial.MainPage();
             MainPage = new NavigationPage(new MainPage());
         }

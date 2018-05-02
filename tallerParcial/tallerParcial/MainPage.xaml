@@ -9,8 +9,7 @@
         VerticalOptions="CenterAndExpand"
         HorizontalOptions="Center"
         Margin="10"
-         WidthRequest="500"
-        >
+         WidthRequest="500">
         <StackLayout Orientation="Horizontal"
                      VerticalOptions="Start"
                      Margin="10"
